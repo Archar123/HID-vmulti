@@ -25,3 +25,9 @@ Note: This will not work on 64-bit systems without first properly signing the dr
     Run testvmulti.exe /multitouch to move the cursor via virtual multitouch (only available on Win7 and above)
     Run testvmulti.exe /mouse to move the cursor via virtual mouse
     Run testvmulti.exe /digitizer to move the cursor via virtual digitizer 
+
+错误提示内容：
+这个设备运转正常。Windows 无法识别与该硬件连接的一个次要设备，原因使该设备没有有效的硬件标识号。请与硬件制造商联系取得协助。
+
+解决方法
+原项目没有硬件标识号的节，你可以去看看 微软官方的这份文档 https://learn.microsoft.com/zh-cn/windows-hardware/drivers/install/hardware-ids 然后添加上去
